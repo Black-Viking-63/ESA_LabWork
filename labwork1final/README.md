@@ -1,4 +1,4 @@
-# Лабораторная работа №1 по курсу "Архитектура Корпоративных Систем":<br>"Application with common JavaEE architecture"<br>
+# Лабораторная работа №1 по курсу<br>"Архитектура Корпоративных Систем":<br>"Application with common JavaEE architecture"<br>
 # Средства, используемые для разработки приложения
 * JDK 16.0.2
 * Jakarta EE 9.1
