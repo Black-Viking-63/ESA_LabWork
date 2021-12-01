@@ -68,9 +68,9 @@
 Thymeleaf и XSLT
 
 # **Editor**
-| create_editor | show_editors | update_editor |
-| --- | --- | --- |
-| ![Screenshot](images/create_editor.png) | ![Screenshot](images/show_editors.png) | ![Screenshot](images/update_editor.png) |
+| create_editor | show_editors | show_group_editors | update_editor |
+| --- | --- | --- |--- |
+| ![Screenshot](images/create_editor.png) | ![Screenshot](images/show_editors.png) | ![Screenshot](images/show_group_editors.png) | ![Screenshot](images/update_editor.png) |
 
 # **Game**
 | create_game | show_games | update_game |
