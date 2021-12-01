@@ -65,16 +65,16 @@ Spring Data JPA, Spring MVC, REST API<br>
 Thymeleaf и XSLT
 
 # **Editor**
-| create_editor | show_editors | update_editor |
-| --- | --- | --- |
-| ![Screenshot](images/create_editor.png) | ![Screenshot](images/show_editors.png) | ![Screenshot](images/update_editor.png) |
+| create_editor | show_editors | show_group_games | update_editor |
+| --- | --- | --- |--- |
+| ![Screenshot](images/create_editor.png) | ![Screenshot](images/show_editors.png) |  ![Screenshot](images/show_group_games.png) |![Screenshot](images/update_editor.png) |
 
 # **Game**
 | create_game | show_games | update_game |
 | --- | --- | --- |
-| ![Screenshot](images/create_game.png) | ![Screenshot](images/show_games.png) | ![Screenshot](images/update_game.png) |+
+| ![Screenshot](images/create_game.png) | ![Screenshot](images/show_games.png) | ![Screenshot](images/update_game.png) |
 
 # **XSL**
 | show_editors | show_games |
 | --- | --- |
-| ![Screenshot](images/show_editors_xsl.png) | ![Screenshot](images/show_group_games.png) |
+| ![Screenshot](images/show_editors_xsl.png) | ![Screenshot](images/show_games_xsl.png) |
