@@ -55,7 +55,7 @@
 Spring Data JPA, Spring MVC<br>
 В качетсве модели используется модель из предыдущей лабораторной работы: "Издатель - КомпьютернаяИгра", собствеено учатсники данной модели и являются сущностями.<br>
 Схема базы данных "store", представлена на рисунке ниже.<br>
-![Screenshot](images/model.png)<br><br>
+![Screenshot](images/model.PNG)<br><br>
 Для работы с базой данных использовались следующие скрипты:<br>
 <a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork1final/sql_scripts/create_data.sql">create_data.sql - создание таблиц.</a><br>
 <a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork1final/sql_scripts/insert_data.sql">insert_data.sql - заполнение таблиц.</a><br>
