@@ -1,0 +1,13 @@
+INSERT INTO public.editor (id, name_editor) VALUES (1, 'ElectronicArts');
+INSERT INTO public.editor (id, name_editor) VALUES (2, 'Activizion');
+INSERT INTO public.editor (id, name_editor) VALUES (3, 'Two-Take');
+
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (1, 'Mafia: The city of Lost Heaven', 'Action-adventure', 150, 1);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (2, 'Call of Duty: Modern Warfare 2', 'First-person shooter', 300, 3);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (3, 'Battlefield V', 'First-person shooter', 700, 2);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (4, 'Need for Speed: Most Wanted', 'Racing', 150, 2);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (5, 'Star Wars Jedi: Fallen Order', 'Action-adventure', 650, 2);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (6, 'Red Dead Redemption 2', 'Action-adventure', 900, 3);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (7, 'Call of Duty 4: Modern Warfare Remastered', 'First-person shooter', 950, 1);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (8, 'Quake 4', 'First-person shooter', 250, 1);
+INSERT INTO public.game (id, name_game, genre, price, editor_id) VALUES (9, 'Grand Theft Auto Online', 'Action-adventure', 1000, 3);

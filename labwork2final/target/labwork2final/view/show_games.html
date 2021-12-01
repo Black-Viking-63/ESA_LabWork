@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" th:href="@{/editors}">Show editors</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" th:href="@{/games}">Show games</a>
+        </li>
+    </ul>
+    <table class="table table-striped table-dark table-hover">
+        <caption style="caption-side: top">Games</caption>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name game</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Editor</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="game : ${games}">
+            <td th:text="${game.id}">
+            </td>
+            <td th:text="${game.nameGame}">
+            </td>
+            <td th:text="${game.genre}">
+            </td>
+            <td th:text="${game.price}">
+            </td>
+            <td th:text="${game.editor.id}">
+            </td>
+            <td>
+                <form th:action="@{/games/{id}/update(id=${game.id})}">
+                    <input type="submit" class="btn btn-primary" value="Update">
+                </form>
+            </td>
+            <td>
+                <form th:action="@{/games/{id}/delete(id=${game.id})}" th:method="delete">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                </form>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <form th:action="@{/games/create}" th:method="get">
+        <button class="btn btn-primary">Create game</button>
+    </form>
+</div>
+</body>
+</html>

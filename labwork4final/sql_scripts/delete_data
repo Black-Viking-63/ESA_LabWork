@@ -1,0 +1,4 @@
+DELETE FROM public.game;
+DELETE FROM public.editor;
+delete from public.db_change;
+delete from public.notification;
