@@ -51,7 +51,8 @@ Create a script to make a database for your model.
 </table>
 
 
-# Модель
+# Модель и бизнес логика
+Servlets, EJB and Hibernate
 В качетсве модели была выбрана модель "Издатель - КомпьютернаяИгра", собствеено учатсники данной модели и являются сущностями.<br>
 Схема базы данных "store", представлена на рисунке ниже.<br>
 ![Screenshot](images/model.png)<br><br>
