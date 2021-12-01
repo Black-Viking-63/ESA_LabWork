@@ -47,9 +47,9 @@ Spring Data JPA, Spring MVC<br>
 Схема базы данных "store", представлена на рисунке ниже.<br>
 ![Screenshot](images/model.png)<br><br>
 Для работы с базой данных использовались следующие скрипты:<br>
-<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/create_data.sql">create_data.sql - создание таблиц.</a><br>
-<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/insert_data.sql">insert_data.sql - заполнение таблиц.</a><br>
-<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/create_data.sql">delete_data.sql - удаление данных из таблицы.</a><br><br>
+<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/create_data">create_data.sql - создание таблиц.</a><br>
+<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/insert_data">insert_data.sql - заполнение таблиц.</a><br>
+<a href="https://github.com/Black-Viking-63/ESA_LabWork/blob/main/labwork2final/sql_script/create_data">delete_data.sql - удаление данных из таблицы.</a><br><br>
 
 
 # Представление данных
