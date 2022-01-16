@@ -19,18 +19,22 @@ public class Receiver {
     private NotificationService notificationService;
 
     @JmsListener(destination = "dbChange", containerFactory = "myFactory")
-    public void receiveMessage(DbChange dbChange) {
-        // insert into db
-        changeService.save(dbChange);
+    public void receiveMessageSendEmails(DbChange dbChange) {
         // send emails
         String subject = "DB change";
         String text = createEmailText(dbChange);
         notificationService.getAll().forEach(notification -> {
             if (notification.getCondition().match(dbChange)) {
                 System.out.println("Sending email to " + notification.getEmailAddress() + "\n" + "Subject: " + subject + "\n" + "Text: " + text);
-//                emailSenderService.sendEmail(notification.getEmailAddress(), subject, text);
+                // emailSenderService.sendEmail(notification.getEmailAddress(), subject, text);
             }
         });
+    }
+
+    @JmsListener(destination = "dbChange", containerFactory = "myFactory")
+    public void receiveMessageSaveChange(DbChange dbChange) {
+        // insert into db
+        changeService.save(dbChange);
     }
 
     private String createEmailText(DbChange dbChange) {
